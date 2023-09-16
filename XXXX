@@ -1,0 +1,15 @@
+pip install yfinance
+!pip install pandas-datareader
+!pip install fix-yahoo-finance
+
+# Import yfinance to make Yahoo Finance API call
+import yfinance as yf
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib import style
+%matplotlib inline
+import seaborn as sns
+from datetime import datetime
+from functools import reduce
